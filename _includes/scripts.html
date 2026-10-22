@@ -2,3 +2,25 @@
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
+
+<script>
+  // Each project's photos form their own gallery, and the WeChat QR opens on its own,
+  // instead of the theme's single page-wide gallery.
+  $(function () {
+    var popup = {
+      type: 'image',
+      removalDelay: 500,
+      mainClass: 'mfp-zoom-in',
+      closeOnContentClick: true,
+      callbacks: {
+        beforeOpen: function () {
+          this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+        }
+      }
+    };
+    $('.project-gallery').each(function () {
+      $(this).find('a').magnificPopup($.extend({}, popup, { gallery: { enabled: true } }));
+    });
+    $('a.wechat-qr').magnificPopup(popup);
+  });
+</script>
