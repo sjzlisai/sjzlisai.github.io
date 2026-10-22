@@ -107,3 +107,83 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+/* project list: every project is a row; rows with photos put a 4:3 cover on the left */
+.project-box {
+    padding: 1.5em 0;
+
+    .paper-box-image {
+        img {
+            display: block;
+            aspect-ratio: 4 / 3;
+            object-fit: cover;
+        }
+        a {
+            position: relative;
+            display: block;
+        }
+    }
+
+    .paper-box-text p:first-child {
+        margin-top: 0;
+    }
+
+    .badge {
+        z-index: 1;
+    }
+
+    @include breakpoint($medium) {
+        .paper-box-image {
+            max-width: 32%;
+            img {
+                max-width: 300px;
+            }
+        }
+        .paper-box-text {
+            max-width: 68%;
+        }
+    }
+}
+
+.paper-box.no-image .paper-box-text {
+    max-width: 100%;
+    padding-left: 0;
+}
+
+.photo-count {
+    position: absolute;
+    right: .6em;
+    bottom: .6em;
+    padding: .1em .7em;
+    border-radius: 1em;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    font-size: .7em;
+    line-height: 1.6;
+}
+
+/* WeChat QR: click opens it in the lightbox; on wide screens hovering also previews it */
+.wechat-item {
+    position: relative;
+}
+
+.wechat-hover {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 160px;
+    max-width: none;
+    padding: 6px;
+    background: #fff;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+    z-index: 20;
+}
+
+@media (hover: hover) {
+    .wechat-item:hover .wechat-hover {
+        display: block;
+    }
+}
