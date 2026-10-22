@@ -107,7 +107,7 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
-/* project list: every project is a row; rows with photos put a 4:3 cover on the left */
+/* project list: every project is a row with its text flush left; rows with photos put a 4:3 cover on the right */
 .project-box {
     padding: 1.5em 0;
 
@@ -132,14 +132,25 @@ h1:before, .anchor:before {
     }
 
     @include breakpoint($medium) {
+        flex-wrap: nowrap;
+        align-items: flex-start;
+
+        .paper-box-text {
+            order: 1;
+            flex: 1 1 auto;
+            max-width: none;
+            padding-left: 0;
+        }
         .paper-box-image {
+            order: 2;
+            flex: 0 0 32%;
             max-width: 32%;
+            min-width: 0;
+            justify-content: flex-end;
+            padding-left: 2em;
             img {
                 max-width: 300px;
             }
-        }
-        .paper-box-text {
-            max-width: 68%;
         }
     }
 }
