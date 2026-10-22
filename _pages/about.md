@@ -10,6 +10,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# 👋 您好
+
 我是**李赛**，石家庄铁道大学土木工程专业博士研究生，导师为[马文勇教授](https://www.engineeringonline.cn/page19)（[课题组主页](https://www.engineeringonline.cn/page107)）。
 
 我主要从事复杂环境风工程与风致颗粒输运研究，围绕风沙、风雪等典型风致颗粒灾害的形成机理、输运演化与工程防控，开展现场监测、风洞试验、计算流体力学模拟及数据驱动分析。在交通与新能源基础设施环境适应性研究方面具有较系统的科研与工程实践，具备从科学问题凝练、方法实现到数据分析与结果提炼的完整科研能力，并具有良好的团队协作与项目执行能力。
@@ -43,32 +45,95 @@ redirect_from:
 <span class='anchor' id='projects'></span>
 
 # 🔬 科研及工程项目
-- *2027 - 2030*，**高海拔寒区铁路风吹雪灾害特征及主动防治策略研究**，主研
-  - 国家自然科学基金面上项目，项目编号：52678675
-  - 参与项目申请书撰写，2026 年获批立项。
-- *2026*，**中吉乌铁路风吹雪路段风吹雪灾害监测项目**，项目技术负责人
-  - 委托单位：中交第二航务工程局有限公司、中电建铁路建设投资集团有限公司、中铁隧道局集团有限公司
-  - 面向吉尔吉斯斯坦境内铁路风吹雪风险，设计并实施监测方案，完成设备布设、安装调试与数据接入，形成灾害评估及监测报告。
-- *2025*，**中核汇能云霄列屿 300 MW 海上光伏项目 CFD 数值模拟计算**，项目技术负责人
-  - 委托单位：中国电力工程顾问集团华东电力设计院有限公司
-  - 开展海上光伏阵列风环境与风荷载 CFD 数值模拟，完成阵列风荷载分析。
-- *2024 - 2026*，**基于深度学习模型的交通风吹雪灾害动态预测与评估研究**，项目负责人
-  - 河北省研究生创新资助项目（省级），项目编号：CXZZBS2025166，经费 1.5 万元
-  - 融合现场监测、灾害特征分析、机器学习预测与典型路段 CFD 模拟，开展交通风吹雪动态预测与评估。
-- *2023*，**高海拔山区川藏线的道路风吹雪灾害研究**，技术负责人
-  - 委托单位：中国气象局公共气象服务中心
-  - 制定现场测试方案并研制调试设备，组织完成川藏线沿线 20 天、7000 km 现场调查与测试；串联数据分析、预测模型开发、气象产品接入与 CFD 模拟，完成结题报告。
-- *2022*，**河北省优势项目新技战术空气动力学技术优化研究**
-  - 河北省重点研发计划民生科技专项
-  - 围绕场地自行车与短道速滑运动员气动特性，研制并调试真人动态阻力测试设备，结合风洞阻力试验与 CFD 模拟开展分析。
-- *2023 - 2026*，**交通线路风吹雪灾害预测及防治措施研究**
-  - 国家自然科学基金面上项目，项目编号：52278511，经费 54 万元
-  - 负责交通线路风吹雪灾害 CFD 模拟，基于典型路段风场、雪粒输运与积雪分布的联合分析，比较不同防治措施的减灾效果。
-- *2021 - 2023*，**路堑风吹雪灾害研究**，项目负责人
-  - 研究生创新资助项目（校级），项目编号：YC2022023，经费 0.5 万元
-  - 结合风洞试验与 CFD 模拟，完成试验方案设计、模型制作、工况测试及数据分析，揭示不同路堑条件下的风场与积雪分布规律。
-- *2020*，**克塔铁路风吹雪灾害数值模拟与风洞试验研究**
-  - 委托单位：中国铁路设计集团
+
+<div class='paper-box project-box no-image'>
+<div class='paper-box-text' markdown="1">
+
+**高海拔寒区铁路风吹雪灾害特征及主动防治策略研究**<br>*2027 - 2030* · 主研
+
+- 国家自然科学基金面上项目，项目编号：52678675
+- 参与项目申请书撰写，2026 年获批立项。
+</div>
+</div>
+
+<div class='paper-box project-box'><div class='paper-box-image project-gallery'><div><div class="badge">现场监测</div><a href="images/proj2-1.jpg" title="监测设备现场安装调试"><img src="images/proj2-1-thumb.jpg" alt="中吉乌铁路风吹雪监测设备现场安装" width="100%"><span class="photo-count">2 张</span></a><a href="images/proj2-2.jpg" title="监测设备现场接线调试" hidden></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**中吉乌铁路风吹雪路段风吹雪灾害监测项目**<br>*2026* · 项目技术负责人
+
+- 委托单位：中交第二航务工程局有限公司、中电建铁路建设投资集团有限公司、中铁隧道局集团有限公司
+- 面向吉尔吉斯斯坦境内铁路风吹雪风险，设计并实施监测方案，完成设备布设、安装调试与数据接入，形成灾害评估及监测报告。
+</div>
+</div>
+
+<div class='paper-box project-box no-image'>
+<div class='paper-box-text' markdown="1">
+
+**中核汇能云霄列屿 300 MW 海上光伏项目 CFD 数值模拟计算**<br>*2025* · 项目技术负责人
+
+- 委托单位：中国电力工程顾问集团华东电力设计院有限公司
+- 开展海上光伏阵列风环境与风荷载 CFD 数值模拟，完成阵列风荷载分析。
+</div>
+</div>
+
+<div class='paper-box project-box'><div class='paper-box-image project-gallery'><div><div class="badge">结题汇报</div><a href="images/proj4-1.jpg" title="项目结题汇报"><img src="images/proj4-1-thumb.jpg" alt="项目结题汇报现场" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**基于深度学习模型的交通风吹雪灾害动态预测与评估研究**<br>*2024 - 2026* · 项目负责人
+
+- 河北省研究生创新资助项目（省级），项目编号：CXZZBS2025166
+- 融合现场监测、灾害特征分析、机器学习预测与典型路段 CFD 模拟，开展交通风吹雪动态预测与评估。
+</div>
+</div>
+
+<div class='paper-box project-box'><div class='paper-box-image project-gallery'><div><div class="badge">现场测试</div><a href="images/proj5-1.jpg" title="雪样信息测量，西藏昌都"><img src="images/proj5-1-thumb.jpg" alt="川藏线沿线雪样信息测量" width="100%"><span class="photo-count">2 张</span></a><a href="images/proj5-2.jpg" title="现场风速采集，四川理塘" hidden></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**高海拔山区川藏线的道路风吹雪灾害研究**<br>*2023* · 技术负责人
+
+- 委托单位：中国气象局公共气象服务中心
+- 制定现场测试方案并研制调试设备，组织完成川藏线沿线 20 天、7000 km 现场调查与测试；串联数据分析、预测模型开发、气象产品接入与 CFD 模拟，完成结题报告。
+</div>
+</div>
+
+<div class='paper-box project-box'><div class='paper-box-image project-gallery'><div><div class="badge">风洞试验</div><a href="images/proj6-1.jpg" title="场地自行车运动员风洞阻力试验"><img src="images/proj6-1-thumb.jpg" alt="场地自行车运动员风洞阻力试验" width="100%"><span class="photo-count">2 张</span></a><a href="images/proj6-2.jpg" title="短道速滑运动员风洞试验" hidden></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+**河北省优势项目新技战术空气动力学技术优化研究**<br>*2022* · 主研
+
+- 河北省重点研发计划民生科技专项
+- 围绕场地自行车与短道速滑运动员气动特性，研制并调试真人动态阻力测试设备，结合风洞阻力试验与 CFD 模拟开展分析。
+</div>
+</div>
+
+<div class='paper-box project-box no-image'>
+<div class='paper-box-text' markdown="1">
+
+**交通线路风吹雪灾害预测及防治措施研究**<br>*2023 - 2026* · 主研
+
+- 国家自然科学基金面上项目，项目编号：52278511
+- 负责交通线路风吹雪灾害 CFD 模拟，基于典型路段风场、雪粒输运与积雪分布的联合分析，比较不同防治措施的减灾效果。
+</div>
+</div>
+
+<div class='paper-box project-box no-image'>
+<div class='paper-box-text' markdown="1">
+
+**路堑风吹雪灾害研究**<br>*2021 - 2023* · 项目负责人
+
+- 研究生创新资助项目（校级），项目编号：YC2022023
+- 结合风洞试验与 CFD 模拟，完成试验方案设计、模型制作、工况测试及数据分析，揭示不同路堑条件下的风场与积雪分布规律。
+</div>
+</div>
+
+<div class='paper-box project-box no-image'>
+<div class='paper-box-text' markdown="1">
+
+**克塔铁路风吹雪灾害数值模拟与风洞试验研究**<br>*2020* · 主研
+
+- 委托单位：中国铁路设计集团
+</div>
+</div>
 
 <span class='anchor' id='publications'></span>
 
