@@ -107,69 +107,88 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
-/* project list: every project is a row with its text flush left; rows with photos put a 4:3 cover on the right */
-.project-box {
+/* project list: every project is a text row; photos or document pages sit in a fold below it */
+.project {
     padding: 1.5em 0;
+    border-bottom: 1px #efefef solid;
 
-    .paper-box-image {
-        img {
-            display: block;
-            aspect-ratio: 4 / 3;
-            object-fit: cover;
-        }
-        a {
-            position: relative;
-            display: block;
-        }
-    }
-
-    .paper-box-text p:first-child {
+    > p:first-child {
         margin-top: 0;
     }
+}
 
-    .badge {
-        z-index: 1;
+.project-media {
+    margin-top: .4em;
+
+    summary {
+        display: inline-block;
+        cursor: pointer;
+        color: $link-color;
+        font-size: .85em;
+        list-style: none;
+        user-select: none;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+        &::before {
+            content: "\25B8";
+            display: inline-block;
+            margin-right: .4em;
+            transition: transform .2s ease;
+        }
+        &:hover {
+            color: $link-color-hover;
+        }
     }
+
+    &[open] summary::before {
+        transform: rotate(90deg);
+    }
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-top: .8em;
 
     @include breakpoint($medium) {
-        flex-wrap: nowrap;
-        align-items: flex-start;
+        grid-template-columns: repeat(4, 1fr);
+    }
 
-        .paper-box-text {
-            order: 1;
-            flex: 1 1 auto;
-            max-width: none;
-            padding-left: 0;
+    a {
+        display: block;
+    }
+    img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        border: 1px solid #e6e6e6;
+        border-radius: 4px;
+        background: #fff;
+    }
+
+    &.pages {
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+        img {
+            aspect-ratio: 210 / 297;
+            object-position: top;
         }
-        .paper-box-image {
-            order: 2;
-            flex: 0 0 32%;
-            max-width: 32%;
-            min-width: 0;
-            justify-content: flex-end;
-            padding-left: 2em;
-            img {
-                max-width: 300px;
-            }
+    }
+    &.slides {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        img {
+            aspect-ratio: 16 / 9;
         }
     }
 }
 
-.paper-box.no-image .paper-box-text {
-    max-width: 100%;
-    padding-left: 0;
-}
-
-.photo-count {
-    position: absolute;
-    right: .6em;
-    bottom: .6em;
-    padding: .1em .7em;
-    border-radius: 1em;
-    background: rgba(0, 0, 0, .6);
-    color: #fff;
-    font-size: .7em;
-    line-height: 1.6;
+.media-pdf {
+    display: inline-block;
+    margin-top: .6em;
+    font-size: .85em;
 }
 
 /* WeChat QR: click opens it in the lightbox; on wide screens hovering also previews it */
