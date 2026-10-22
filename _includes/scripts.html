@@ -19,7 +19,7 @@
       }
     };
     $('.project-gallery').each(function () {
-      $(this).find('a').magnificPopup($.extend({}, popup, { gallery: { enabled: true } }));
+      $(this).find('a[href$=".jpg"]').magnificPopup($.extend({}, popup, { gallery: { enabled: true, tCounter: '%curr% / %total%' } }));
     });
     $('a.wechat-qr').magnificPopup(popup);
   });
