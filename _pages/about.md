@@ -47,93 +47,93 @@ redirect_from:
 
 # 🔬 科研及工程项目
 
-<div class='paper-box project-box no-image'>
-<div class='paper-box-text' markdown="1">
+<div class='project' markdown="1">
 
 **高海拔寒区铁路风吹雪灾害特征及主动防治策略研究**<br>*2027 - 2030* · 主研
 
 - 国家自然科学基金面上项目，项目编号：52678675
 - 参与项目申请书撰写，2026 年获批立项。
-</div>
+
+
 </div>
 
-<div class='paper-box project-box'><div class='paper-box-image project-gallery'><div><div class="badge">现场监测</div><a href="images/proj2-1.jpg" title="监测设备现场安装调试"><img src="images/proj2-1-thumb.jpg" alt="中吉乌铁路风吹雪监测设备现场安装" width="100%"><span class="photo-count">2 张</span></a><a href="images/proj2-2.jpg" title="监测设备现场接线调试" hidden></a></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='project' markdown="1">
 
 **中吉乌铁路风吹雪路段风吹雪灾害监测项目**<br>*2026* · 项目技术负责人
 
 - 委托单位：中交第二航务工程局有限公司、中电建铁路建设投资集团有限公司、中铁隧道局集团有限公司
 - 面向吉尔吉斯斯坦境内铁路风吹雪风险，设计并实施监测方案，完成设备布设、安装调试与数据接入，形成灾害评估及监测报告。
-</div>
+
+<details class='project-media'><summary>项目执行照片（8 张）</summary><div class='media-grid project-gallery'><a href="images/proj2-1.jpg" title="中吉乌铁路风吹雪监测现场"><img src="images/proj2-1-thumb.jpg" alt="中吉乌铁路风吹雪监测现场" loading="lazy"></a><a href="images/proj2-2.jpg" title="中吉乌铁路风吹雪监测现场"><img src="images/proj2-2-thumb.jpg" alt="中吉乌铁路风吹雪监测现场" loading="lazy"></a><a href="images/proj2-3.jpg" title="中吉乌铁路风吹雪监测现场"><img src="images/proj2-3-thumb.jpg" alt="中吉乌铁路风吹雪监测现场" loading="lazy"></a><a href="images/proj2-4.jpg" title="中吉乌铁路风吹雪监测现场"><img src="images/proj2-4-thumb.jpg" alt="中吉乌铁路风吹雪监测现场" loading="lazy"></a><a href="images/proj2-5.jpg" title="中吉乌铁路风吹雪监测现场"><img src="images/proj2-5-thumb.jpg" alt="中吉乌铁路风吹雪监测现场" loading="lazy"></a><a href="images/proj2-6.jpg" title="中吉乌铁路风吹雪监测现场"><img src="images/proj2-6-thumb.jpg" alt="中吉乌铁路风吹雪监测现场" loading="lazy"></a><a href="images/proj2-7.jpg" title="中吉乌铁路风吹雪监测现场"><img src="images/proj2-7-thumb.jpg" alt="中吉乌铁路风吹雪监测现场" loading="lazy"></a><a href="images/proj2-8.jpg" title="中吉乌铁路风吹雪监测现场"><img src="images/proj2-8-thumb.jpg" alt="中吉乌铁路风吹雪监测现场" loading="lazy"></a></div></details>
 </div>
 
-<div class='paper-box project-box no-image'>
-<div class='paper-box-text' markdown="1">
+<div class='project' markdown="1">
 
 **中核汇能云霄列屿 300 MW 海上光伏项目 CFD 数值模拟计算**<br>*2025* · 项目技术负责人
 
 - 委托单位：中国电力工程顾问集团华东电力设计院有限公司
 - 开展海上光伏阵列风环境与风荷载 CFD 数值模拟，完成阵列风荷载分析。
-</div>
+
+
 </div>
 
-<div class='paper-box project-box'><div class='paper-box-image project-gallery'><div><div class="badge">结题汇报</div><a href="images/proj4-1.jpg" title="项目结题汇报"><img src="images/proj4-1-thumb.jpg" alt="项目结题汇报现场" width="100%"></a></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='project' markdown="1">
 
 **基于深度学习模型的交通风吹雪灾害动态预测与评估研究**<br>*2024 - 2026* · 项目负责人
 
 - 河北省研究生创新资助项目（省级），项目编号：CXZZBS2025166
 - 融合现场监测、灾害特征分析、机器学习预测与典型路段 CFD 模拟，开展交通风吹雪动态预测与评估。
-</div>
+
+<details class='project-media'><summary>项目执行文档（结题报告与申请书）</summary><div class='media-grid pages project-gallery'><a href="images/proj4-page1.jpg" title="结题报告书"><img src="images/proj4-page1-thumb.jpg" alt="结题报告书" loading="lazy"></a><a href="images/proj4-page2.jpg" title="项目实施情况报告"><img src="images/proj4-page2-thumb.jpg" alt="项目实施情况报告" loading="lazy"></a><a href="images/proj4-page3.jpg" title="成果综述"><img src="images/proj4-page3-thumb.jpg" alt="成果综述" loading="lazy"></a><a href="images/proj4-page4.jpg" title="成果综述与成果清单"><img src="images/proj4-page4-thumb.jpg" alt="成果综述与成果清单" loading="lazy"></a><a href="images/proj4-page5.jpg" title="结题汇报"><img src="images/proj4-page5-thumb.jpg" alt="结题汇报" loading="lazy"></a><a href="images/proj4-page6.jpg" title="申请书：研究方法"><img src="images/proj4-page6-thumb.jpg" alt="申请书：研究方法" loading="lazy"></a><a href="images/proj4-page7.jpg" title="申请书：技术路线"><img src="images/proj4-page7-thumb.jpg" alt="申请书：技术路线" loading="lazy"></a><a href="images/proj4-page8.jpg" title="申请书：研究基础与现场实测"><img src="images/proj4-page8-thumb.jpg" alt="申请书：研究基础与现场实测" loading="lazy"></a></div><a class='media-pdf' href='images/proj4-doc.pdf' target='_blank' rel='noopener'>打开 PDF 文档（22 页）›</a></details>
 </div>
 
-<div class='paper-box project-box'><div class='paper-box-image project-gallery'><div><div class="badge">现场测试</div><a href="images/proj5-1.jpg" title="雪样信息测量，西藏昌都"><img src="images/proj5-1-thumb.jpg" alt="川藏线沿线雪样信息测量" width="100%"><span class="photo-count">2 张</span></a><a href="images/proj5-2.jpg" title="现场风速采集，四川理塘" hidden></a></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='project' markdown="1">
 
 **高海拔山区川藏线的道路风吹雪灾害研究**<br>*2023* · 技术负责人
 
 - 委托单位：中国气象局公共气象服务中心
 - 制定现场测试方案并研制调试设备，组织完成川藏线沿线 20 天、7000 km 现场调查与测试；串联数据分析、预测模型开发、气象产品接入与 CFD 模拟，完成结题报告。
-</div>
+
+<details class='project-media'><summary>项目执行照片（3 张）</summary><div class='media-grid project-gallery'><a href="images/proj5-1.jpg" title="川藏线风吹雪现场测试"><img src="images/proj5-1-thumb.jpg" alt="川藏线风吹雪现场测试" loading="lazy"></a><a href="images/proj5-2.jpg" title="川藏线风吹雪现场测试"><img src="images/proj5-2-thumb.jpg" alt="川藏线风吹雪现场测试" loading="lazy"></a><a href="images/proj5-3.jpg" title="川藏线风吹雪现场测试"><img src="images/proj5-3-thumb.jpg" alt="川藏线风吹雪现场测试" loading="lazy"></a></div></details>
 </div>
 
-<div class='paper-box project-box'><div class='paper-box-image project-gallery'><div><div class="badge">风洞试验</div><a href="images/proj6-1.jpg" title="场地自行车运动员风洞阻力试验"><img src="images/proj6-1-thumb.jpg" alt="场地自行车运动员风洞阻力试验" width="100%"><span class="photo-count">2 张</span></a><a href="images/proj6-2.jpg" title="短道速滑运动员风洞试验" hidden></a></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='project' markdown="1">
 
 **河北省优势项目新技战术空气动力学技术优化研究**<br>*2022* · 主研
 
 - 河北省重点研发计划民生科技专项
 - 围绕场地自行车与短道速滑运动员气动特性，研制并调试真人动态阻力测试设备，结合风洞阻力试验与 CFD 模拟开展分析。
-</div>
+
+<details class='project-media'><summary>项目执行照片（3 张）</summary><div class='media-grid project-gallery'><a href="images/proj6-1.jpg" title="运动员风洞阻力试验"><img src="images/proj6-1-thumb.jpg" alt="运动员风洞阻力试验" loading="lazy"></a><a href="images/proj6-2.jpg" title="运动员风洞阻力试验"><img src="images/proj6-2-thumb.jpg" alt="运动员风洞阻力试验" loading="lazy"></a><a href="images/proj6-3.jpg" title="运动员风洞阻力试验"><img src="images/proj6-3-thumb.jpg" alt="运动员风洞阻力试验" loading="lazy"></a></div></details>
 </div>
 
-<div class='paper-box project-box no-image'>
-<div class='paper-box-text' markdown="1">
+<div class='project' markdown="1">
 
 **交通线路风吹雪灾害预测及防治措施研究**<br>*2023 - 2026* · 主研
 
 - 国家自然科学基金面上项目，项目编号：52278511
 - 负责交通线路风吹雪灾害 CFD 模拟，基于典型路段风场、雪粒输运与积雪分布的联合分析，比较不同防治措施的减灾效果。
-</div>
+
+
 </div>
 
-<div class='paper-box project-box no-image'>
-<div class='paper-box-text' markdown="1">
+<div class='project' markdown="1">
 
 **路堑风吹雪灾害研究**<br>*2021 - 2023* · 项目负责人
 
 - 研究生创新资助项目（校级），项目编号：YC2022023
 - 结合风洞试验与 CFD 模拟，完成试验方案设计、模型制作、工况测试及数据分析，揭示不同路堑条件下的风场与积雪分布规律。
-</div>
+
+<details class='project-media'><summary>项目执行文档（结题汇报 PPT）</summary><div class='media-grid slides project-gallery'><a href="images/proj8-slide1.jpg" title="结题汇报 第 1 页"><img src="images/proj8-slide1-thumb.jpg" alt="结题汇报 第 1 页" loading="lazy"></a><a href="images/proj8-slide2.jpg" title="结题汇报 第 2 页"><img src="images/proj8-slide2-thumb.jpg" alt="结题汇报 第 2 页" loading="lazy"></a><a href="images/proj8-slide3.jpg" title="结题汇报 第 3 页"><img src="images/proj8-slide3-thumb.jpg" alt="结题汇报 第 3 页" loading="lazy"></a><a href="images/proj8-slide4.jpg" title="结题汇报 第 4 页"><img src="images/proj8-slide4-thumb.jpg" alt="结题汇报 第 4 页" loading="lazy"></a><a href="images/proj8-slide5.jpg" title="结题汇报 第 5 页"><img src="images/proj8-slide5-thumb.jpg" alt="结题汇报 第 5 页" loading="lazy"></a><a href="images/proj8-slide6.jpg" title="结题汇报 第 6 页"><img src="images/proj8-slide6-thumb.jpg" alt="结题汇报 第 6 页" loading="lazy"></a><a href="images/proj8-slide7.jpg" title="结题汇报 第 7 页"><img src="images/proj8-slide7-thumb.jpg" alt="结题汇报 第 7 页" loading="lazy"></a><a href="images/proj8-slide8.jpg" title="结题汇报 第 8 页"><img src="images/proj8-slide8-thumb.jpg" alt="结题汇报 第 8 页" loading="lazy"></a><a href="images/proj8-slide9.jpg" title="结题汇报 第 9 页"><img src="images/proj8-slide9-thumb.jpg" alt="结题汇报 第 9 页" loading="lazy"></a><a href="images/proj8-slide10.jpg" title="结题汇报 第 10 页"><img src="images/proj8-slide10-thumb.jpg" alt="结题汇报 第 10 页" loading="lazy"></a><a href="images/proj8-slide11.jpg" title="结题汇报 第 11 页"><img src="images/proj8-slide11-thumb.jpg" alt="结题汇报 第 11 页" loading="lazy"></a><a href="images/proj8-slide12.jpg" title="结题汇报 第 12 页"><img src="images/proj8-slide12-thumb.jpg" alt="结题汇报 第 12 页" loading="lazy"></a><a href="images/proj8-slide13.jpg" title="结题汇报 第 13 页"><img src="images/proj8-slide13-thumb.jpg" alt="结题汇报 第 13 页" loading="lazy"></a></div><a class='media-pdf' href='images/proj8-doc.pdf' target='_blank' rel='noopener'>打开 PDF 文档（13 页）›</a></details>
 </div>
 
-<div class='paper-box project-box no-image'>
-<div class='paper-box-text' markdown="1">
+<div class='project' markdown="1">
 
 **克塔铁路风吹雪灾害数值模拟与风洞试验研究**<br>*2020* · 主研
 
 - 委托单位：中国铁路设计集团
-</div>
+
+
 </div>
 
 <span class='anchor' id='publications'></span>
@@ -185,7 +185,7 @@ redirect_from:
 - **试验**：风沙/风雪与工程风环境风洞试验；试验方案设计、模型布置、风场测量及数据分析。
 - **监测**：风沙/风雪现场调查；风速风向、雪深、综合气象及风雪流系统的选型、布设、调试与数据整理。
 - **LaTeX**：期刊论文、学位论文及书籍等科技文档排版。
-- **网站编辑**：搭建并维护[课题组网站](https://www.engineeringonline.cn/)（engineeringonline.cn），负责栏目规划、页面排版与图文编辑，撰写新闻稿，进行图片处理与视频剪辑，持续发布科研成果、学术活动与团队动态。
+- **网站编辑**：搭建并维护[课题组网站](https://www.engineeringonline.cn/)（engineeringonline.cn），负责栏目规划、页面排版与图文编辑，撰写新闻稿，进行图片处理与视频剪辑。
 - **语言**：大学英语六级（CET-6）。具备良好的英文文献阅读、学术写作与沟通能力，具有海外独立工作与生活经历，能够使用英语开展学术及专业交流。
 
 <p style="color: #888; font-size: 0.8em; margin-top: 3em;">最后更新：2026 年 9 月 11 日</p>
