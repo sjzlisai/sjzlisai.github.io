@@ -188,4 +188,4 @@ redirect_from:
 - **网站编辑**：搭建并维护[课题组网站](https://www.engineeringonline.cn/)（engineeringonline.cn），负责栏目规划、页面排版与图文编辑，撰写新闻稿，进行图片处理与视频剪辑。
 - **语言**：大学英语六级（CET-6）。具备良好的英文文献阅读、学术写作与沟通能力，具有海外独立工作与生活经历。
 
-<p style="color: #888; font-size: 0.8em; margin-top: 3em;">最后更新：2026 年 9 月 11 日</p>
+<p style="color: #888; font-size: 0.8em; margin-top: 3em;">最后更新：2026 年 10 月 23 日</p>
