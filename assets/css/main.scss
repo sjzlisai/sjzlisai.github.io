@@ -117,6 +117,54 @@ h1:before, .anchor:before {
     }
 }
 
+/* title on the left; role badge and years pushed to the right (they wrap under a long title on phones) */
+.project-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .3em 1em;
+}
+
+.project-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: .6em;
+    margin-left: auto;
+    white-space: nowrap;
+    font-size: .8em;
+}
+
+.project-years {
+    min-width: 6.4em;  // single years and ranges take the same width, so the badges line up
+    text-align: right;
+    color: $primary-color;
+    font-variant-numeric: tabular-nums;
+}
+
+/* three roles, strongest first: 项目负责人, 项目技术负责人, 主研 */
+.role {
+    padding: .05em .6em;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    line-height: 1.6;
+
+    &.role-pi {
+        background: $link-color;
+        color: #fff;
+    }
+    &.role-tech {
+        background: mix(#fff, $link-color, 88%);
+        border-color: mix(#fff, $link-color, 70%);
+        color: $link-color;
+    }
+    &.role-member {
+        background: #f4f5f6;
+        border-color: #e3e5e7;
+        color: $primary-color;
+    }
+}
+
 .project-media {
     margin-top: .4em;
 
