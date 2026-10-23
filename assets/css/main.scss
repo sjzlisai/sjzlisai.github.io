@@ -109,15 +109,24 @@ h1:before, .anchor:before {
 }
 /* project list: every project is a text row; photos or document pages sit in a fold below it */
 .project {
-    padding: 1.5em 0;
+    padding: .8em 0;
     border-bottom: 1px #efefef solid;
 
     > p:first-child {
         margin-top: 0;
     }
+    p {
+        margin-bottom: .3em;
+    }
+    ul {
+        margin: 0;
+    }
+    li {
+        margin-bottom: .1em;
+    }
 }
 
-/* title on the left; role badge and years pushed to the right (they wrap under a long title on phones) */
+/* title on the left; role and years on the right (they wrap under a long title on phones) */
 .project-head {
     display: flex;
     flex-wrap: wrap;
@@ -126,47 +135,49 @@ h1:before, .anchor:before {
     gap: .3em 1em;
 }
 
+// fixed-width columns: the role sits flush right in its column and the years flush left in theirs,
+// so on every row the badge's right edge meets the years' left edge at the same spot
 .project-meta {
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: 8.4em 6.4em;
+    column-gap: .6em;
     align-items: center;
-    gap: .6em;
     margin-left: auto;
     white-space: nowrap;
     font-size: .8em;
+
+    .role {
+        justify-self: end;
+    }
 }
 
 .project-years {
-    min-width: 6.4em;  // single years and ranges take the same width, so the badges line up
-    text-align: right;
     color: $primary-color;
     font-variant-numeric: tabular-nums;
 }
 
-/* three roles, strongest first: 项目负责人, 项目技术负责人, 主研 */
+/* three roles, strongest first: 项目负责人, 项目技术负责人, 主研 (palette from the group website) */
 .role {
-    padding: .05em .6em;
-    border: 1px solid transparent;
-    border-radius: 3px;
+    padding: .1em .5em;
+    border-radius: 4px;
     line-height: 1.6;
 
     &.role-pi {
-        background: $link-color;
-        color: #fff;
+        background: #dbeafe;
+        color: #1e40af;
     }
     &.role-tech {
-        background: mix(#fff, $link-color, 88%);
-        border-color: mix(#fff, $link-color, 70%);
-        color: $link-color;
+        background: #f3e8ff;
+        color: #6b21a8;
     }
     &.role-member {
-        background: #f4f5f6;
-        border-color: #e3e5e7;
-        color: $primary-color;
+        background: #dcfce7;
+        color: #166534;
     }
 }
 
 .project-media {
-    margin-top: .4em;
+    margin-top: .3em;
 
     summary {
         display: inline-block;
