@@ -23,13 +23,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "李赛"
   avatar           : "images/avatar.jpg"
-  bio              : "石家庄铁道大学 · 博士研究生"
+  bio              : "石家庄铁道大学<br>博士研究生"
   location         : "河北 石家庄"
   employer         :
   pubmed           :
   googlescholar    :
   email            : "sjzlisai@foxmail.com"
   wechat           : "images/wechat-qr.jpg" # WeChat add-friend QR code
+  cv               : "images/lisai-cv.pdf" # PDF resume linked from the top bar
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
