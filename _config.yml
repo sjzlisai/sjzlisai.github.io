@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "李赛"
-description              : "环境风工程与风致颗粒输运研究：风沙、风雪灾害的形成机理、输运演化与工程防控。"
+description              : "环境风工程与风致颗粒输运研究：风沙、风雪灾害的形成机理、输运演化与工程防治。"
 repository               : "sjzlisai/sjzlisai.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "李赛"
   avatar           : "images/avatar.jpg"
-  bio              : "石家庄铁道大学 · 土木工程博士研究生"
+  bio              : "石家庄铁道大学 · 博士研究生"
   location         : "河北 石家庄"
   employer         :
   pubmed           :
