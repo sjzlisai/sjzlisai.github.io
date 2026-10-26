@@ -12,5 +12,8 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    {% if site.author.cv %}
+    <a class="masthead__cv" href="{{ site.author.cv }}" download="{{ site.author.name }}_中文学术简历.pdf"><i class="fas fa-fw fa-download" aria-hidden="true"></i><span class="masthead__cv-long"> 下载 PDF 简历</span><span class="masthead__cv-short"> PDF 简历</span></a>
+    {% endif %}
   </div>
 </div>
