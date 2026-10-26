@@ -250,6 +250,51 @@ h1:before, .anchor:before {
     font-size: .85em;
 }
 
+/* PDF resume link pinned to the right end of the top bar; the nav keeps clear of it so the
+   priority-plus menu folds links into its button before they reach the link */
+.masthead__inner-wrap {
+    position: relative;
+}
+
+.greedy-nav {
+    margin-right: 6.5rem;
+
+    @include breakpoint($medium) {
+        margin-right: 9.5rem;
+    }
+}
+
+.masthead__cv {
+    position: absolute;
+    top: 50%;
+    right: .5em;
+    transform: translateY(-50%);
+    padding: .3em .8em;
+    border-radius: 4px;
+    background: #dbeafe;
+    color: #1e40af;
+    font-size: .8em;
+    white-space: nowrap;
+
+    &:hover {
+        background: #bfdbfe;
+        color: #1e40af;
+    }
+
+    .masthead__cv-long {
+        display: none;
+    }
+
+    @include breakpoint($medium) {
+        .masthead__cv-long {
+            display: inline;
+        }
+        .masthead__cv-short {
+            display: none;
+        }
+    }
+}
+
 /* WeChat QR: click opens it in the lightbox; on wide screens hovering also previews it */
 .wechat-item {
     position: relative;
